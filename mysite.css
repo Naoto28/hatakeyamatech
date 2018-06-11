@@ -42,7 +42,7 @@ nav {
   display: inline-block;
   text-align: center;
   float: right;
-  padding: 22px 0;
+  line-height: 70px;
 }
 
 .nav-menu {
@@ -274,6 +274,10 @@ nav {
   padding-top: 20px;
 }
 
+.skill {
+  font-size: 20px;
+}
+
 .skill-text {
   font-size: 16px;
   color: #000000;
@@ -326,6 +330,11 @@ nav {
 
 .mail-address {
   padding-bottom: 20px;
+  text-decoration : underline;
+}
+
+.tell-number {
+  text-decoration : underline;
 }
 
 .tell {
@@ -745,9 +754,6 @@ nav {
   margin: 0 auto;
   text-align: center;
 }
-
-/*.mail-box {
-}*/
 
 .mail {
   font-size: 20px;
