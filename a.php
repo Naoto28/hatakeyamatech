@@ -6,7 +6,7 @@ $tag = 'PHP';
 
 $curl = curl_init();
 
-curl_setopt($curl, CURLOPT_URL, $base_url.'?token=xoxp-409377253776-410231859317-410233319669-b11e382fab725cd84afd4c7e602289c6&channel=%23general&username=Naotohatakeyama&text=++++++++++++++++name+%3D+f++++++++++++++++mail+%3D+f++++++++++++++++content+%3D+f');
+curl_setopt($curl, CURLOPT_URL, $base_url.'?token= &channel=%23general&username=Naotohatakeyama&text=++++++++++++++++name+%3D+f++++++++++++++++mail+%3D+f++++++++++++++++content+%3D+f');
 curl_setopt($curl, CURLOPT_CUSTOMREQUEST, 'GET');
 curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false); // 証明書の検証を行わない
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);  // curl_execの結果を文字列で返す
