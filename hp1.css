@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*color: #6c6b6b;*/
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+nav {
+  z-index: 5000;
+}
+
+#nav-items a:hover {
+  color: rgba(255,255,255,1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  display: inline;
+  color: white;
+}
+
+h2 {
+  text-shadow: -1px 1px 0 rgba(255, 255, 255, .4);
+}
+
+#products {
+  margin-bottom: 15px;
+  box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+  background-color: #f8f9fa;
+}
+
+.products-content {
+  padding: 100px 0 100px 0;
+  /*background-color: #F7F6E7;*/
+}
+
+.service-box {
+  padding-top: 60px;
+}
+
+.service-text {
+  padding-top: 30px;
+}
+
+#company {
+  margin-bottom: 15px;
+  box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+}
+
+.company-content {
+  padding: 100px 0 100px 0;
+  background-image: url(img/toppic2.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.company-board {
+  background-color: rgba(238,238,238,0.6);
+  padding: 20px;
+  border-radius: 2px;
+  /*box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);*/
+  -webkit-box-shadow: 0 0 3px #999;
+  margin: 0 auto;
+}
+
+.table-content {
+  padding: 10px;
+}
+
+.company-table {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+
+}
+
+.company-table:last-child {
+  border-bottom: none;
+}
+
+.company-table dd {
+  margin: 10px 0 15px 0;
+}
+
+.company-table dt {
+  text-shadow: -1px 1px 0 rgba(255, 255, 255,0.2);
+}
+
+dt:after {
+  content: " ";
+  display: block;
+  border: solid 1.5px #8da6ab;
+  width: 25px;
+  margin: 0 auto;
+}
+
+#contact {
+  background-color: #f8f9fa;
+  box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+  -webkit-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 9px 3px -3px rgba(0,0,0,0.6);
+}
+
+.contact-content {
+  padding: 100px 0 100px 0;
+}
+
+.mail-form {
+  margin-top: 50px;
+  padding: 0 150px;
+}
+
+.contact-form {
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.sent-btn {
+  padding: 10px 50px 0 50px;
+}
+
+.sent-btn .send-btn {
+  padding: 10px 50px;
+}
+
+.sent-comment {
+  margin-top: 25px;
+  font-size: 19px;
+}
+
+.free-space-content {
+  padding: 100px 0 100px 0;
+}
+
+.member-pic {
+  border-radius: 180px;
+}
+
+
+.plofile {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.job {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.member-service-text {
+  padding-top: 10px;
+}
+
+
+
+/*.nav-item {
+  color: #FAFAFA;
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  float: right;
+  line-height: 70px;
+}*/
+
+/*.nav-menu {
+  padding: 0 30px 0 30px;
+  font-size: 16px;
+}*/
+
+.main-visual {
+  height: 600px;
+  background-image: url(img/toppic1.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  text-align: center;
+}
+
+.main-word {
+  padding: 180px 100px 0 100px;
+  font-size: 64px;
+  color: #FAFAFA;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-shadow: 1px -1px 0 rgba(0,0,0,0.5);
+}
+
+.main-wordsab {
+  padding-top: 10px;
+  font-size: 20px;
+  color: #FAFAFA;
+  font-family: Quicksand, 游ゴシック体, "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-shadow: 1px -1px 0 rgba(0,0,0,1);
+}
+
+
+
+.under {
+  height: 3px;
+  width: 70px;
+  margin-top: 8px;
+  background-color: #537791;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #537791;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  font-size: 12px;
+  color: #FAFAFA;
+}
+
+.nav-unshown {
+  display:none;
+}
+#nav-content {
+  display: none;
+}
+
+#scroll {
+  float: right;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  display: none;
+  padding: 2px;
+}
+
+
+.member-pic:hover {
+  background-image: url(img/anda2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/*.collapse:not(.show) {
+  display: block !important;
+}*/
+
+/*-----メディアクエリ*/
+@media screen and (max-width:767px) {
+
+nav {
+  display: block;
+}
+
+.mail-form {
+  padding: 0 0 0 0;
+}
+
+
+
+.active {
+  display: block !important;
+}
+
+.main-visual {
+  height: 600px;
+  background-image: url(img/respponsib.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-word {
+  padding: 180px 10px 0 10px;
+  font-size: 34px;
+  color: #FAFAFA;
+  text-shadow: 1px -1px 0 rgba(0,0,0,0.5);
+}
+
+.main-wordsab {
+  padding-top: 10px;
+  font-size: 15px;
+  color: #FAFAFA;
+  text-shadow: 1px -1px 0 rgba(0,0,0,0.1);
+}
+
+
+
+.service-right {
+  padding-top: 30px;
+}
+
+
+
+.free-item {
+  padding-top: 50px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
